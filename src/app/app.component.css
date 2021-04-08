@@ -1,0 +1,31 @@
+::ng-deep.ql-editor {
+  height: 200px;
+}
+::ng-deep.ql-editor.ql-blank::before {
+  color: #ffff;
+}
+::ng-deep.ql-container.ql-snow
+{
+  background-color: #252a2a;
+  border: 1px solid transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+::ng-deep.ql-toolbar.ql-snow {
+  background-color: #252a2a;
+  border: 1px solid transparent;
+  transform: translate(0%, 578%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+::ng-deep.ql-editor {
+  color: #fff;
+}
+::ng-deep.ql-snow.ql-toolbar button svg {
+  color: red;
+  fill: red;
+}
+::ng-deep.ql-snow .ql-stroke {
+  fill: none;
+  stroke: #ffff;
+}
