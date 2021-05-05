@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import appboy from '@braze/web-sdk';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +9,13 @@ import {Component} from '@angular/core';
 export class AppComponent {
   title = 'learnQuillLib';
 
-  editorModules = {
-    toolbar: [['bold', 'italic'],
-      ['code-block'],
-      ['image']
-    ],
-  };
+// editorModules = {
+  //   toolbar: [['bold', 'italic'],
+  //     ['code-block'],
+  //     ['image']
+  //   ],
+  // };
+
+  // tslint:disable-next-line:typedef
+
 }
